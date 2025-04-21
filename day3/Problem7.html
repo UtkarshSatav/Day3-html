@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File Not Found</title>
+  <style>
+    body {
+      background-color: #fce4ec; /* light pink */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px;
+      text-align: center;
+      color: #444;
+    }
+    img, audio {
+      display: block;
+      margin: 20px auto;
+      max-width: 300px;
+    }
+    .message {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🚫 File Not Found</h2>
+
+  <img src="missing-image.png" alt="Broken image example">
+  <audio controls>
+    <source src="missing-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="message">
+    <p><strong>Error:</strong> One or more files are missing.</p>
+    <p><i>Please check the file paths and try again.</i></p>
+  </div>
+</body>
+</html>
